@@ -1,10 +1,10 @@
 #include "driver.h"
+#include "car.h"
 #include <iostream>
 
-bool Driver::Drive()
+bool Driver::Drive(Car& car)
 {
-	Car bmw;
-	bmw.Start();
+	car.Start();
 	std::cout << "Driving\n";
 	return true;
 }
