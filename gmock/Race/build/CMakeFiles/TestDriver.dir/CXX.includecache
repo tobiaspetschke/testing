@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../inc/car.h
+gmock/gmock.h
+-
+iostream
+-
+
+../inc/driver.h
+car.h
+../inc/car.h
+iostream
+-
+
+/home/tobias/src/testing/gmock/Race/driver.cpp
+driver.h
+/home/tobias/src/testing/gmock/Race/driver.h
+car.h
+/home/tobias/src/testing/gmock/Race/car.h
+iostream
+-
+
+/home/tobias/src/testing/gmock/Race/tests/test_driver.cpp
+gtest/gtest.h
+-
+gmock/gmock.h
+-
+driver.h
+/home/tobias/src/testing/gmock/Race/tests/driver.h
+car.h
+/home/tobias/src/testing/gmock/Race/tests/car.h
+

@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/race.dir/race.cpp.o CMakeFiles/race.dir/mazda.cpp.o CMakeFiles/race.dir/car.cpp.o  -o race -rdynamic 

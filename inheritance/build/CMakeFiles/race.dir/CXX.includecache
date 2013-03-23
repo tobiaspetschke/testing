@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../inc/car.h
+gmock/gmock.h
+-
+
+../inc/mazda.h
+gmock/gmock.h
+-
+iostream
+-
+
+../inc/vehicle.h
+
+/home/tobias/src/testing/inheritance/car.cpp
+vehicle.h
+/home/tobias/src/testing/inheritance/vehicle.h
+car.h
+/home/tobias/src/testing/inheritance/car.h
+iostream
+-
+
+/home/tobias/src/testing/inheritance/mazda.cpp
+vehicle.h
+/home/tobias/src/testing/inheritance/vehicle.h
+car.h
+/home/tobias/src/testing/inheritance/car.h
+mazda.h
+/home/tobias/src/testing/inheritance/mazda.h
+iostream
+-
+
+/home/tobias/src/testing/inheritance/race.cpp
+vehicle.h
+/home/tobias/src/testing/inheritance/vehicle.h
+car.h
+/home/tobias/src/testing/inheritance/car.h
+mazda.h
+/home/tobias/src/testing/inheritance/mazda.h
+
